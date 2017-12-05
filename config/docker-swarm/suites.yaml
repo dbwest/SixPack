@@ -1,0 +1,9 @@
+test_suite:
+#    key: foo
+    master_ip: 192.168.99.101
+    token: SWMTKN-1-63fexqj3ojkzjg5xs5tsxaay5ktmpn3nawv35o7gm3sq7i69op-1mgohk3zgb8i2hzrgqrlslw50
+    listen_port: 2377
+    node_count: 2
+    ami: ami-1a64d260
+    root: /home/ubuntu/headless_demo
+    ssm_profile: 'arn:aws:iam::708253402773:instance-profile/SSM'
